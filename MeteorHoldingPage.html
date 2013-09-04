@@ -1,0 +1,233 @@
+<head>
+  	<title>Wigwamm - List property from your phone</title>
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
+	<meta name="keywords" content="wigwamm, property, rental, listing">
+	<meta name="description" content="Wigwamm - List property from your phone">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="cWLF0UyGolIZHVVY_0niOT0lbiSDYd3yVSC44gkhLcg" />
+	<meta name="msvalidate.01" content="B6761E90EC5E812AAD454FC8AE7320C8" />
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-42474808-1', 'wigwamm.com');
+	  ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+	<div id="body-holder"  itemscope itemtype="http://schema.org/Organization">
+		{{> invite }}
+		{{> info }}
+		{{> about }}
+		{{> team }}
+	</div>
+</body>
+
+<template name="invite">
+	<h1 id="logo"><a href="/" itemprop="name">{{ heading }}</a></h1>
+	<section id="invite">
+		<div id="phone">
+			<img src="/images/app.png" alt="Wigwamm app" />
+		</div>
+		<div class="content-holder">
+			<h2>List a property in minutes</h2>
+			<button>Request invite</button>
+			
+			<form action="http://wigwamm.us7.list-manage1.com/subscribe/post?u=0ad85cdef4e3dcb9861fa87e4&amp;id=e22a6d3704" method="post">
+				<input class="email" type="email" value="" name="EMAIL" size="30" autofocus required autocomplete="off">
+				<input class="submit text-hidden" type="submit" value="Subscribe" name="subscribe" >
+				<p>Just enter your email above and hit the enter key</p>
+			</form>
+			
+			<a href="#info"><span class="text-hidden">Go to info</span></a>
+		</div>
+	</section>
+	{{ invokeAfterLoad }}
+</template>
+
+<template name="info">
+	<section id="info">
+		<div class="content-holder">
+			<ul>
+				<li>
+					<h4>Instant</h4>
+					<p>
+						Listing professionally in 5 minutes saves agents the 1-3
+						days it currently takes to get professional property 
+						listings online.
+					</p>
+				</li>
+				<li>
+					<h4>Real-time</h4>
+					<p>
+						Landlords and vendors see real-time interest in their
+						property, allowing them to be informed and in control.
+					</p>
+				</li>
+				<li>
+					<h4>Professional</h4>
+					<p>
+						Clear, fast information for prospective buyers and
+						tenants leads to more confident decisions to choose your
+						property.
+					</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	{{ invokeAfterLoad }}
+</template>
+
+<template name="about">
+	<section id="about">
+		<div class="content-holder">
+			<h4>How can we help <strong>you?</strong></h4>
+			<article>
+				<p>
+					<strong>The Agent</strong> - When at  an appraisal or valuation, how long does the 
+					landlord or vendor wait before that property is professionally
+					listed online? How impressive would it be to publish the property
+					listing from your phone? With just a few taps, Wigwamm's Listing
+					App puts you days ahead of the competition.
+				</p>
+				<p>
+					<strong>The Agency Software Providers</strong> - Give your customers real-time listing from their mobile. No complex integration is needed; receive a CSV or BLM file to import into your system. Get higher quality information into your software for publishing to portals and agents' own sites.
+				</p>
+				<p>
+					<strong>The Property Portals</strong> - You want to do real time property alerts
+					for buyers and tenants, and you have taken the time to build
+					functionality to do real time updates. But it's not real time
+					if the agents take ages to list. By putting the power in 
+					their hands, real-time means immediately.
+				</p>
+			</article>
+			<button>Request invite</button>
+			<form action="http://wigwamm.us7.list-manage1.com/subscribe/post?u=0ad85cdef4e3dcb9861fa87e4&amp;id=e22a6d3704" method="post">
+				<input class="email" type="email" value="" name="EMAIL" size="30" autofocus required autocomplete="off">
+				<input class="submit text-hidden" type="submit" value="Subscribe" name="subscribe" >
+				<p>Just enter your email above and hit the enter key</p>
+			</form>
+		</div>
+	</section>
+	{{ invokeAfterLoad }} 
+</template>
+
+<template name="team">
+	<section id="team">
+		<div class="content-holder">
+			<h4>We are</h4>
+			<ul id="employees" itemprop="employees">
+				<li itemscope itemtype="http://schema.org/Person">
+					<img src="images/team/rayhan.jpg" alt="Rayhan - Fixer" />
+					<div class="info">
+						<p>
+							<strong itemprop="name">Rayhan</strong>
+							<span itemprop="jobTitle">Fixer</span>
+						</p>
+					</div>
+				</li>
+				<li itemscope itemtype="http://schema.org/Person">
+					<img src="images/team/sofi.jpg" alt="Sofi - Founder" />
+					<div class="info">
+						<p>
+							<strong itemprop="name">Sofi</strong>
+							<span itemprop="jobTitle">Founder</span>
+						</p>	
+					</div>
+				</li>
+				<li itemscope itemtype="http://schema.org/Person">
+					<img src="images/team/viktoria.jpg" alt="Viktoria - Marketing" />
+					<div class="info">
+						<p>
+							<strong itemprop="name">Viktoria</strong>
+							<span itemprop="jobTitle">Marketing</span>
+						</p>	
+					</div>
+				</li>
+				<li itemscope itemtype="http://schema.org/Person">
+					<img src="images/team/daniel.jpg" alt="Daniel - Web Dev" />
+					<div class="info">
+						<p>
+							<strong itemprop="name">Daniel</strong>
+							<span itemprop="jobTitle">Web Dev</span>
+						</p>	
+					</div>
+				</li>
+				<li itemscope itemtype="http://schema.org/Person">
+					<img src="images/team/darius.jpg" alt="Darius - Designer" />
+					<div class="info">
+						<p>
+							<strong itemprop="name">Darius</strong>
+							<span itemprop="jobTitle">Designer</span>
+						</p>	
+					</div>
+				</li>
+				<li>
+					<img src="images/team/join.jpg" alt="Join the team" />
+					<div class="info">
+						<p>
+							<a href="//recruitment.wigwamm.com" target="_blank">
+								<span>We're</span>
+								<strong>Hiring!</strong>
+							</a>
+						</p>	
+					</div>
+				</li>
+			</ul>
+			<p class="tagline">
+				We believe if you give people better information, they'll make
+				better decisions.
+			</p>
+			<div id="contact" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<p>
+					Our offices are at 
+					<span itemprop="streetAddress">231 Lavender Hill,
+					<span itemprop="addressLocality">London</span>,
+					<span itemprop="postalCode">SW11 1JR</span>
+				</p>
+				<p>
+					Feel free to drop by or get in touch:
+					<a href="mailto:team@wigwamm.com" target="_blank" itemprop="email">
+						team@wigwamm.com
+					</a>			
+				</p>
+				<div id="socialmedia">
+					<h5>Follow us:</h5>
+					<ul>
+						<li id="tumblr">
+							<a href="http://blog.wigwamm.com/" target="_blank">
+								<span class="text-hidden">
+									Blog
+								</span>
+							</a>
+						</li>
+						<li id="twitter">
+							<a href="https://twitter.com/wigwammhq" target="_blank">
+								<span class="text-hidden">
+									Twitter
+								</span>
+							</a>
+						</li>
+						<li id="facebook">
+							<a href="https://www.facebook.com/Wigwamm" target="_blank">
+								<span class="text-hidden">
+									Facebook
+								</span>
+							</a>
+						</li>
+						<li id="angel">
+							<a href="https://angel.co/wigwamm" target="_blank">
+								<span class="text-hidden">
+									Angel List
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+	</section>
+</template>
